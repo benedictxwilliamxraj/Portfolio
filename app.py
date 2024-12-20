@@ -1,5 +1,4 @@
 import streamlit as st
-from PIL import Image
 #from st_on_hover_tabs import on_hover_tabs
 
 
