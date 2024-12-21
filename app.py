@@ -8,21 +8,22 @@ if __name__=='__main__':
 
     st.sidebar.markdown('''
     # Portfolio
-    - [About Me](#aboutme)
-    - [Skills ](#skills)
+    - [About Me](#AboutMe)
+    - [Skills](#skills)
+    - [Work experience](#Workexperience)
     - [Projects](#projects)
     - [Research Work and Publications](#r&p)
-    - [Achievements](#Achievements)
-    - [Work experience](#services)
+    - [Achievements](#achievements)
     - [Contact Info](#contact)
     ''', unsafe_allow_html=True)
 
     # 1. About me
     st.header('About Me', divider=True)
+
     st.markdown("##### Hello,")
     st.subheader("I'm Benedict William Raj !!")
     st.markdown("###### Masters in Business Analytics '25 | BE CSE '21 | Data Engineering | AI/ML | Cloud Migration")
-    st.markdown("###### ")
+#     st.markdown("###### ")
 
     col1, col2 = st.columns([1,2])
     with col1:
@@ -53,27 +54,33 @@ if __name__=='__main__':
     st.markdown("""
     <ul>
         <li><b>Languages:</b>
-            <p>Python, SQL, PHP, C, C++ </p>
+            <p>Python,R, SQL, PHP, C, C++ </p>
         </li>
         <li><b>Database/Datawarehouse:</b>
-            <p>Snowflake, PostgreSQL, MySQL, Oracle,Amazon S3, Spark</p>
+            <p>Snowflake, PostgreSQL, MySQL, Oracle,Amazon S3</p>
         </li>
         <li><b>ETL & Data Integration Tools:</b>
-            <p>ADF, Fivetran, Qlik, Airflow, Ascend.io, Databricks</p>
+            <p>Snowspark, ADF, Fivetran, Qlik, Airflow, Ascend.io, Databricks, Spark</p>
         </li>
-        <li><b></b>
-            <p></p>
+        <li><b>Data Visualization:</b>
+            <p>Streamlit, Matplotlib, Seaborn, Tableau, Excel</p>
+        </li>
+        <li><b>Machine Learning Frameworks/ Libraries: </b>
+            <p>Darts, sklearn</p>
         </li>
     </ul>
     """, unsafe_allow_html=True)
-    # 3. Projects
+    # 3. Work experience/ Services
+    st.header('Work experience', divider=True)
+
+    # 4. Projects
     st.header('Projects', divider=True)
+
+
     # 4. Research Work and Publications
     st.header('Research Work and Publications', divider=True)
     # 5. Achievements
     st.header('Achievements', divider=True)
-    # 6. Work experience/ Services
-    st.header('Work experience', divider=True)
     # 7. Contact Info
     st.header('Contact', divider=True)
     # 8. Get in touch with me

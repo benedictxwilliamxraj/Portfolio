@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f75d980-0198-44cd-968e-4a58df10cef3" name="Changes" comment="added &quot;about me&quot;" />
+    <list default="true" id="8f75d980-0198-44cd-968e-4a58df10cef3" name="Changes" comment="added &quot;about me&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,12 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/benedictxwilliamxraj/Portfolio",
-    "accountId": "2ebc8f98-4d21-463c-aa51-04c49ea69082"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;benedictxwilliamxraj&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/benedictxwilliamxraj/Portfolio&quot;,
+    &quot;accountId&quot;: &quot;2ebc8f98-4d21-463c-aa51-04c49ea69082&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -57,7 +66,8 @@
       <option name="presentableId" value="Default" />
       <updated>1734227951174</updated>
       <workItem from="1734227952250" duration="1365000" />
-      <workItem from="1734688000585" duration="10318000" />
+      <workItem from="1734688000585" duration="10473000" />
+      <workItem from="1734807087795" duration="2217000" />
     </task>
     <task id="LOCAL-00001" summary="added &quot;about me&quot;">
       <option name="closed" value="true" />
@@ -67,7 +77,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734737847988</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added &quot;about me&quot;">
+      <option name="closed" value="true" />
+      <created>1734737907452</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734737907452</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added &quot;about me&quot;">
+      <option name="closed" value="true" />
+      <created>1734737931845</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734737931845</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
