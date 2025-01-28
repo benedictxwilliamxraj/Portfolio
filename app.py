@@ -12,7 +12,6 @@ if __name__=='__main__':
     - [Skills](#skills)
     - [Work experience](#Workexperience)
     - [Projects](#projects)
-    - [Research Work and Publications](#r&p)
     - [Achievements](#achievements)
     - [Contact Info](#contact)
     ''', unsafe_allow_html=True)
@@ -72,13 +71,121 @@ if __name__=='__main__':
     """, unsafe_allow_html=True)
     # 3. Work experience/ Services
     st.header('Work experience', divider=True)
-
+    st.markdown("""
+    <ul>
+        <li><b> UNIVERSITY AT BUFFALO</b>
+            <br>
+            <i>Assistant</i>
+            <ul>
+                <li>Developed Python scripts to scrape and extract real-time data from websites, tailored to meet specific business requirements, ensuring accurate and relevant data collection for analysis.</li>
+                <li>Applied linear programming to optimize resource allocation, balancing staffing needs against cost constraints.</li>
+                <li>Developed a predictive forecasting model to estimate staffing needs under various growth scenarios.</li>
+                <li>Built interactive dashboards using Streamlit to visualize staffing levels, resource utilization, and future projections, enabling dynamic data exploration for stakeholders.</li>
+                <li>Delivered scenario analysis capabilities for predicting staffing needs under different growth projections.</li>
+            </ul>
+        </li>
+        <hr>
+        <li><b>GO DIGITAL TECHNOLOGY CONSULTING LLP </b>
+            <br>
+            <i>Data Engineer</i>
+            <ul>
+                <li>Collaborated with system architects, design analysts and project managers to understand business and industry needs.</li>
+                <li>Designed and implemented data models tailored to fulfill the dynamic requirements of the business.</li>
+                <li>Developed Oracle BI Publisher Report to perform ETL into Data Warehouse.</li>
+                <li>Developed new data pipelines for Oracle Human Capital Management using Ascend and Snowflake to develop BI reports.</li>
+                <li>Migrated Existing Oracle EBS modules to Fusion SCM modules (O2C, P2P, GLDM pipelines) into Snowflake.</li>
+                <li>Optimized SQL queries for supply chain modules, resulting in faster execution of pipelines.</li>
+                <li>Automated pipeline to extract and load of 100’s of table using Python.</li>
+            </ul>
+        </li>
+        <hr>
+        <li><b>LTIMINDTREE</b>
+            <br>
+            <i>Data Engineer</i>
+            <ul>
+                <li>Mentoring and leading a team of 2 junior data engineers to write concise, reusable, and scalable code.</li>
+                <li>Collaborated on ETL (Extract, Transform, Load) tasks, maintaining data integrity, and verifying pipeline stability.</li>
+                <li>Converted an existing Python/Pyspark ingestion pipeline to Snowpark and increased its performance by 80%.</li>
+                <li>Designed and created new analytical dashboards using Tableau.</li>
+                <li>Undertook cloud migration of traditional SQL system to Snowflake system.</li>
+                <li>Learnt various ingestion tools Databricks, ADF, Fivetran and Qlik and built an ingestion pipeline.</li>
+                <li>Created and optimized multiple time-efficient REST APIs with Python and Airflow for providing data to third party clients.</li>
+                <li>Constructed a data lineage application to identify data origin and visibility for Snowflake.</li>
+            </ul>
+        </li>
+        <hr>
+        <li><b>TATA INSTITUTE OF FUNDAMENTAL RESEARCH</b>
+            <br>
+            <i> Research Intern</i>
+            <ul>
+                <li>Collaborated with research teams to develop project plans aligned with target timescales.</li>
+                <li>Coded with PyQT5 and NodeJS to develop an AI Surveillance desktop application to monitor college CCTV.</li>
+                <li>Trained YoloV4 model to detect humans and developed an email notification system to notify administrators.</li>
+            </ul>
+        </li>
+        <hr>
+        <li><b>KANALYTICS PRIVATE LIMITED</b>
+            <br>
+            <i>Data Science Intern</i>
+            <ul>
+                <li>Devised and trained new image search model to increase company productivity.</li>
+                <li>Coded on Python and PHP to build end-to-end image recognition pipeline.</li>
+            </ul>
+        </li>
+    </ul>
+    """, unsafe_allow_html=True)
     # 4. Projects
     st.header('Projects', divider=True)
+    st.markdown("""
+    <ul>
+        <li><b>HR RESOURCE FORECASTING</b>
+            <br>
+            <i><b>Tools:</b> Python, Streamlit </i>
+            <p>
+            Developed an end-to-end solution for workforce planning at a tax consultancy firm.
+            Analyzed historical data to identify seasonal workload trends and employed a seasonal machine learning model, such as Prophet,
+            to forecast workload for the next 52 days. Using these predictions, implemented linear programming to optimize employee allocation across departments, minimizing total staffing costs.
+            Finally, designed an interactive dashboard to visualize forecasts, staffing requirements enabling data-driven decision-making for efficient resource management.
+            <br>
+            <i><a href="https://github.com/benedictxwilliamxraj/StaffForecasting">Github</a></i>
+            </p>
+        </li>
+        <hr>
+        <li><b>OLAP Integration Project</b>
+            <br>
+            <i><b>Tools</b> Snowflake, Ascend.io, SQL</i>
+            <p>
+            Migrated on-premise and Oracle Fusion data to a cloud-based architecture for improved efficiency and scalability.
+            Extracted table data into CSV files and loaded them into the OCI staging area.
+            Leveraged ASCEND.IO as the ETL tool to ingest data into Snowflake, where business transformations were performed using SQL. Designed and implemented dimension and fact tables, followed by creating visualization-ready tables.
+            This setup enabled Power BI developers to directly utilize preprocessed data, minimizing processing power requirements within the Power BI application and enhancing performance.
+            </p>
+        </li>
+        <hr>
+        <li><b>Cloud migration</b>
+            <br>
+            <i><b>Tools: </b>Python, Snowpark</i>
+            <p>
+            Migrated an existing data processing pipeline from Spark with Pandas-based transformations to a Snowpark-compatible format,
+            enabling seamless integration with Snowflake’s cloud ecosystem. Focused on optimizing the code to enhance efficiency, achieving an 80% improvement in processing time.
+            This migration not only ensured cloud compatibility but also significantly boosted performance, making the data processing workflow more scalable and cost-effective within the cloud environment.
+            </p>
+        </li>
+        <hr>
+        <li><b>AISS</b>
 
+        </li>
+        <li><b>Face Similarity Search</b>
+            <br>
+            <i><b>Tools: </b> Python, PHP</i>
+            <p>
 
+            </p>
+        </li>
+    </ul>
+    """, unsafe_allow_html=True)
     # 4. Research Work and Publications
-    st.header('Research Work and Publications', divider=True)
+    # st.header('Research Work and Publications', divider=True)
     # 5. Achievements
     st.header('Achievements', divider=True)
     # 7. Contact Info

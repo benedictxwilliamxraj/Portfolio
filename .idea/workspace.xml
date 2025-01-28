@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f75d980-0198-44cd-968e-4a58df10cef3" name="Changes" comment="added &quot;about me&quot;">
+    <list default="true" id="8f75d980-0198-44cd-968e-4a58df10cef3" name="Changes" comment="added &quot;skill section&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
@@ -67,7 +67,11 @@
       <updated>1734227951174</updated>
       <workItem from="1734227952250" duration="1365000" />
       <workItem from="1734688000585" duration="10473000" />
-      <workItem from="1734807087795" duration="2217000" />
+      <workItem from="1734807087795" duration="2507000" />
+      <workItem from="1735631741534" duration="2000" />
+      <workItem from="1737127313643" duration="1958000" />
+      <workItem from="1737528761267" duration="15000" />
+      <workItem from="1738086217278" duration="3222000" />
     </task>
     <task id="LOCAL-00001" summary="added &quot;about me&quot;">
       <option name="closed" value="true" />
@@ -93,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734737931845</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added &quot;skill section&quot;">
+      <option name="closed" value="true" />
+      <created>1734820570723</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734820570723</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added &quot;about me&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="added &quot;about me&quot;" />
+    <MESSAGE value="added &quot;skill section&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="added &quot;skill section&quot;" />
   </component>
 </project>
