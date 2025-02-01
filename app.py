@@ -173,13 +173,27 @@ if __name__=='__main__':
         </li>
         <hr>
         <li><b>AISS</b>
-
+            <br>
+            <i><b>Tools:</b> Python, PyQT5, YoloV4</i>
+            <p>
+            Developed an AI-powered surveillance application for the college CCTV system (Hikvision) to improve video monitoring and security.
+            The application integrated the Hikvision API to render live and recorded footage for real-time viewing.
+            Additionally, I implemented an AI-based intruder detection system that identifies unauthorized movement in restricted areas and triggers alerts.
+            In case of any intrusion, the system automatically sends an email with screenshots to the admin, enabling quick action.
+            This project enhanced my skills in AI, CCTV system integration, and automation, providing a more efficient and secure solution for campus surveillance.
+            <br>
+            <i><a href="http://ijsart.com/Home/IssueDetail/47729">Publication</a></i>
+            </p>
         </li>
+        <hr>
         <li><b>Face Similarity Search</b>
             <br>
             <i><b>Tools: </b> Python, PHP</i>
             <p>
-
+              Developed a face similarity search system using machine learning for facial recognition.
+              Collected and trained a model on celebrity faces, storing their encodings in a JSON dictionary for efficient retrieval.
+              The model was then integrated into an application to automatically detect and tag celebrities in images based on facial similarity.
+              This project enhanced my expertise in computer vision, face recognition, and ML model deployment.
             </p>
         </li>
     </ul>
@@ -187,9 +201,25 @@ if __name__=='__main__':
     # 4. Research Work and Publications
     # st.header('Research Work and Publications', divider=True)
     # 5. Achievements
-    st.header('Achievements', divider=True)
+    st.header('Achievements & Certifications', divider=True)
+    st.markdown("""
+    <ul>
+        <li>Snow Pro Certified: 2022-24</li>
+        <li><a href="https://www.hackerrank.com/certificates/89a631c7ab94">SQL Basic Certified</a></li>
+        <li><a href="https://www.hackerrank.com/certificates/abe8b960a9d7">SQL Medium Certified</a></li>
+        <li>Programming Essentials In Python CISCO</li>
+        <li>Won the Special Jury Award in Snowflake Hackathon 2021, organized by Snowflake, Aug 2021. </li>
+        <li>Qualified to the Final Round in Smart India Hackathon 2020, organized by Govt of India, June 2020.</li>
+    </ul>
+    """, unsafe_allow_html=True)
     # 7. Contact Info
     st.header('Contact', divider=True)
     # 8. Get in touch with me
+    st.markdown("""
+    <h4>Email:</h4>
+    <p>benedictwraj117@gmail.com</p>
+    <h4>Phone</h4>
+    <p>+1(716)-846-3192</p>
+    """, unsafe_allow_html=True)
 
 
