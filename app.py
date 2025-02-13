@@ -204,7 +204,7 @@ if __name__=='__main__':
     st.header('Achievements & Certifications', divider=True)
     st.markdown("""
     <ul>
-        <li>Snow Pro Certified: 2022-24</li>
+        <li><a href="https://achieve.snowflake.com/3106f588-4301-4c78-a7d1-6094b43c2136#acc.uAkvTdYr">Snow Pro Certified: 2022-24, 2025-27</a></li>
         <li><a href="https://www.hackerrank.com/certificates/89a631c7ab94">SQL Basic Certified</a></li>
         <li><a href="https://www.hackerrank.com/certificates/abe8b960a9d7">SQL Medium Certified</a></li>
         <li>Programming Essentials In Python CISCO</li>
