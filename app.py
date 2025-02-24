@@ -35,7 +35,7 @@ if __name__=='__main__':
             """,
             unsafe_allow_html=True
         )
-        pdf_path = "BenedictResume122024.pdf"
+        pdf_path = "BenedictResume032025.pdf"
         with open(pdf_path, "rb") as pdf_file:
             pdf_data = pdf_file.read()
         st.write("")
